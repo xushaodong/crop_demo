@@ -108,7 +108,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void handleCrop(int resultCode, Intent result) {
         if (resultCode == Activity.RESULT_OK) {
             Uri uri = Crop.getOutput(result);
-//            String iamgeUrl = MiPictureHelper.getPath(this, uri);
             mImageView.setImageURI(uri);
         } else if (resultCode == Crop.RESULT_ERROR) {
             Toast.makeText(this, "result", Toast.LENGTH_SHORT).show();
