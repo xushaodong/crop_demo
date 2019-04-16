@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CropLibrary</string>
+    <string name="crop__wait">waiting</string>
+    <string name="crop__saving">saving</string>
+</resources>
