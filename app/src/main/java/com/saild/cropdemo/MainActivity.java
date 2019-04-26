@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Uri uri = Crop.getOutput(result);
             mImageView.setImageURI(uri);
         } else if (resultCode == Crop.RESULT_ERROR) {
-            Toast.makeText(this, "result_error", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "result_error_v1.3", Toast.LENGTH_SHORT).show();
         }
     }
 }
