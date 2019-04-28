@@ -20,6 +20,7 @@ import com.saild.croplibrary.photo.Crop;
 import java.io.File;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+    // 测试 分支 合并
     private static final int REQUEST_PICK_CAMERA = 101;
     private static final int REQUEST_PICK_STORAGE = 102;
     private Button mTakeBT, mPickImageBT;
